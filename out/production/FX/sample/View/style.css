@@ -1,0 +1,10 @@
+.root
+{
+  width:30px;
+  float:left;
+}
+
+#gridPane
+{
+  background-color:"green";
+}
