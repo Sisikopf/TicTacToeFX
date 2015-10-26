@@ -5,9 +5,7 @@ package sample.Model;
  */
 public class Game {
 
-    enum State {Blank, X, O}
-
-    ;
+    public enum State {Blank, X, O};
     boolean gameOver;
     int n;
     State[][] board;
@@ -17,7 +15,6 @@ public class Game {
     public State getCurrentState() {
         return currentState;
     }
-
     public String getStringCurrentState() {
         return currentState.toString();
     }
